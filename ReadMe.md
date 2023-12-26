@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a Full-System Emulator developed using C and C++ during the period from September 2019 to February 2020. The emulator is designed to simulate various aspects of a computer system, providing a comprehensive understanding of computer architecture. The project includes the following key features:
+This project is a Full-System Emulator developed using C(mainly) and C++. The emulator is designed to simulate various aspects of a computer system, providing a comprehensive understanding of computer architecture. The project includes the following key features:
 
 - **Arithmetic and Logical Operations:** The emulator simulates arithmetic and logical operations on both integers and floating-point numbers. It implements the instruction fetch, decode, and execute processes, enhancing CPU functionality.
 
