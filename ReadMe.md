@@ -1,12 +1,17 @@
-本仓库是MOOC课程《计算机系统基础（五）：x86模拟器编程实践》的代码仓库
+# Full-System Emulator
 
-请先获取对应的实验手册再开展实验，实验手册地址：
+## Overview
 
-* GitHub: http://github.com/ics-nju-wl/icspa-public-guide
-* Gitee: https://gitee.com/wlicsnju/icspa-public-guide
+This project is a Full-System Emulator developed using C and C++ during the period from September 2019 to February 2020. The emulator is designed to simulate various aspects of a computer system, providing a comprehensive understanding of computer architecture. The project includes the following key features:
 
-本代码仓库及其镜像地址：
+- **Arithmetic and Logical Operations:** The emulator simulates arithmetic and logical operations on both integers and floating-point numbers. It implements the instruction fetch, decode, and execute processes, enhancing CPU functionality.
 
+- **ELF Loading:** Developed ELF loading functionality for executable files, ensuring compatibility and proper execution within the emulator.
 
-* GitHub: http://github.com/ics-nju-wl/icspa-public
-* Gitee: https://gitee.com/wlicsnju/icspa-public
+- **Memory Simulation:** Simulated registers and main memory, implementing a paging mechanism to translate virtual addresses. Additionally, the project includes the simulation of cache and addressing in protected mode for memory optimization.
+
+- **Debugger Functionality:** Implemented a debugger with expression evaluation using lexical analysis and recursive evaluation. This feature allows for obtaining runtime information of variables and functions through a symbol table, enhancing the debugging experience.
+
+- **Exception Handling:** The project includes handling responses to exceptions within the trap class and addressing interrupts to ensure robust error handling.
+
+- **I/O Operations:** Simulated input/output operations, contributing to a more realistic emulation of a computer system.
